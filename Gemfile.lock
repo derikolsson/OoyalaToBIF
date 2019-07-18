@@ -555,7 +555,7 @@ GEM
     jmespath (1.3.1)
     json (1.8.6)
     mime-types (2.99.3)
-    mini_magick (4.8.0)
+    mini_magick (4.9.5)
     netrc (0.11.0)
     rake (12.3.0)
     rdoc (6.0.1)
@@ -573,8 +573,8 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk
   curb
-  mini_magick
+  mini_magick (~> 4.9.4)
   ooyala-v2-api (= 0.0.5)!
 
 BUNDLED WITH
-   1.16.0
+   1.17.3
